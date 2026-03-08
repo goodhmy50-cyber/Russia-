@@ -19,7 +19,7 @@ async function startRussiaBot() {
         version,
         auth: state,
         logger: pino({ level: 'silent' }),
-        printQRInTerminal: true,
+        printQRInTerminal: false,
         browser: ["Russia V7 Force", "Chrome", "1.0.0"]
     });
 
